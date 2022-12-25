@@ -1,14 +1,13 @@
-
-
 export const threadProcessing = async (cb: (x: number) => number, interval: [number, number]): Promise<number | void> => {
 
     // if (interval[0] === 0) {
 
-        await setTimeout(
-            () => {},
-            100
-            // fp.toInteger(random(0, 100))
-        )
+    await setTimeout(
+        () => {
+        },
+        100
+        // fp.toInteger(random(0, 100))
+    )
     // }
 
     // console.log(interval)
