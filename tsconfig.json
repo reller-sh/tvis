@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "./mid",
+        "module": "commonjs",
+        "strict": true,
+        "target": "es5",
+        "sourceMap": true,
+        "esModuleInterop": true
+    },
+    "exclude": [
+        "node_modules",
+        "output",
+        ".gitignore",
+        ".idea",
+        "mid"
+    ]
+}

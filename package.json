@@ -1,0 +1,23 @@
+{
+  "name": "tvis",
+  "version": "1.0.0",
+  "description": "psu oop labs",
+  "main": "src/index.js",
+  "author": "reller-sh",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "play": "tsc && node mid/index.js",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^18.11.17",
+    "@types/prompt-sync": "^4.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "prompt-sync": "^4.2.0",
+    "typescript": "^4.9.4"
+  }
+}
