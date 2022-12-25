@@ -33,7 +33,7 @@ export const lab2 = async () => {
 
             if (i % startIntervalCount === 0) {
 
-                const lockIndex = intervalSize / intervalCount * (i + 3)
+                const lockIndex = intervalSize / intervalCount * (i + startIntervalCount)
                 middleVars += (
                     (cbValue(nowInterval[0]) +
                         cbValue(lockIndex)) * (lockIndex - nowInterval[0])/2
