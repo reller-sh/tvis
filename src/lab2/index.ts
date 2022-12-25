@@ -13,7 +13,7 @@ export const lab2 = async () => {
     let startIntervalCount = intervalCount
 
 
-    const errorRate = 0.00001
+    const errorRate = 0.0000001
 
     const cbValue = (arg: number) => Math.sqrt(1 + 2 * Math.pow(arg, 2))
 
@@ -27,6 +27,8 @@ export const lab2 = async () => {
 
         area = 0
         middleVars = 0
+        const start = performance.now()
+
         for (let i = 0; i < intervalCount; i++) {
             const nowInterval: [number, number] =  [intervalSize / intervalCount * i, intervalSize / intervalCount * (i + 1)]
 
@@ -49,6 +51,9 @@ export const lab2 = async () => {
         }
         await (Promise.all(threads))
         threads = []
+
+        console.log(performance.now() - start, ',', intervalCount)
+
         // console.log('MV at: ', middleVars)
 
 
