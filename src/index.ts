@@ -1,6 +1,4 @@
-import {lab2} from "./lab2";
+import {lab6} from './lab6';
 
 
-lab2().then()
-
-
+lab6()

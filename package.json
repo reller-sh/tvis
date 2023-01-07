@@ -8,6 +8,7 @@
   "private": true,
   "scripts": {
     "play": "tsc && node mid/index.js",
+    "run": "node mid/index.js",
     "build": "tsc"
   },
   "devDependencies": {
@@ -18,6 +19,7 @@
   "dependencies": {
     "async": "^3.2.4",
     "lodash": "^4.17.21",
+    "named-pipe": "^1.0.0",
     "prompt-sync": "^4.2.0",
     "typescript": "^4.9.4"
   }
